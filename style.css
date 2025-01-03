@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.header{
+    position:relative;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: beige;
+}
+body{
+    background-color: #e7e6dd;
+}
+.logo {
+    font-size: 2em;
+    color: #78BCC4;
+    cursor: pointer;
+}
+
+.navigation-bar a{
+    font-size: 1em;
+    color:#78BCC4;
+    margin-right: 40px;
+    font-weight: 700;
+    transition: 0.3sec;
+}
+.navigation-bar a:hover{
+    color:gray;
+}
+.button{
+    color: #E2F6D5;
+    background: #41C5D3;
+    padding: 8px 35px;
+    border-radius: 15px;
+    border: 2px solid #41C5D3;
+    font-weight: 500;
+    transition: 0.3sec;
+}
+.button:hover{
+    color:grey;
+    background: transparent;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  background-image: url(bibaa.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    
+    align-items: center;
+    padding: 30px 100px;
+}
+.content{
+   
+    padding-top: 150px;
+    text-align: center;
+    max-width: 500px;
+    color: #588B8B;
+}
+.content h2{
+    
+    font-size: 3em;
+}
+.content h2 span{
+    
+    color:#78BCC4 ;
+}
+.content h3{
+    
+    font-size: 2em;
+}
+.content p{
+   
+    padding: 10px 0px 40px 0;
+}
+.buttons a{
+    color: #E2F6D5;
+    background: #41C5D3;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 2px solid #41C5D3;
+    font-weight: 500;
+}
+.buttons a:hover:nth-child(1){
+    color: grey;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+
+}
+.buttons a:hover:nth-child(2){
+    color: grey;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+
+}
+.skills-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+    
+}
+#SKILLS h2{
+    text-align: center;
+    font-size: 35px;
+color: #41C5D3;
+
+}
+#SKILLS .text{
+text-align: center;
+margin-bottom: 20px;
+color: #588B8B;
+
+}
+#SKILLS.cells.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    padding: 10px 20px;
+    border: 1.5px solid  #588B8B;
+    border-radius: 35px;
+}
+.testimony{
+    padding: 0 50px;
+    margin-bottom: 100px;
+    color: #588B8B;
+ 
+}
+.testimony h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+color: #41C5D3;
+}
+.testimony.group{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: #41C5D3;
+}
+.testimony .group .details{
+
+flex: 2;
+color: #41C5D3;
+}
+
+.testimony.group.text{
+    flex: 8;
+color: #41C5D3;
+
+}
+.contact-section{
+    padding: 0 40px;
+    margin-bottom:100px ;
+   
+}
+.contact-section h2{
+    font-size: 35px;
+    color: #41C5D3;
+
+}
+.contact-section .group{
+display: flex;
+gap: 50px;
+
+color:#588B8B ;
+
+flex-direction: column;
+}
+.contact-section.text{
+    flex: 3;
+    display: flex;
+    margin-top: 20px;
+}
+.contact-section.group forn{
+    flex: 3;
+    display: flex;
+    gap: 20px;
+    flex-direction:column;
+}
+.contact-section forn input,
+.contact-section forn textarea{
+   
+font-family:'poppins'sans-serif;
+border: 2px solid grey;
+background-color:white;
+padding: 10px;
+margin-bottom: 15px;
+
+}
+.contact-section,.group forn button{
+    font-family: 'poppins'sans-serif;
+    font-size: 16px;
+   
+    height: 50px;
+    cursor: pointer;
+    background-color:#41C5D3 ;
+    color: #E2F6D5;
+}
+.contact-section,.group forn button.button:hover{
+    color: rgb(234, 224, 224);
+    background: transparent;
+}
